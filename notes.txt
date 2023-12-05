@@ -1,0 +1,25 @@
+1. npm init --y
+2. npm i express expreess-handlebars morgan mysql2
+Instalacion de express, handlebars que es un motor de plantillas y el modulo para ver 
+peticiones http que llegan a nuestro servidor
+
+Creamos las siguientes carpetas
+src para todos los ficheros pubblicos
+views
+database
+routes
+public
+
+Cramos el fichero index.js
+
+instalamos nodemon para que el servidor se ejecute el servidor
+npm i nodemon -D
+
+Despues en el package.json cambiamos el test por dev y damos la direccion de nuestro script
+asi cada que queramos correr el servidor ponemos el comando npm run dev
+
+tambien se ingresa el siguiente modulo para correr el servidor con el motor de ecmaScript
+  "type": "module",
+
+
+  
